@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import ProductVariants from "../Product-Variants/Product-Variants.component";
 
 class CartItem extends Component {

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 
 class ProductVariant extends Component {
   static contextType = CartContext;

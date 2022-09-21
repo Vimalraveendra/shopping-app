@@ -3,7 +3,7 @@ import Button from "../Button/Button.component";
 import "./Product.styles.scss";
 import ProductImage from "../Product-Image/Product-Image.component";
 import ProductVariants from "../Product-Variants/Product-Variants.component";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import parse from "html-react-parser";
 
 class Product extends PureComponent {

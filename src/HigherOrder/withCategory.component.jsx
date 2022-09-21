@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useQuery, gql } from "@apollo/client";
-import { CartContext } from "../Components/Context/Cart.context";
+import { CartContext } from "../Context/Cart.context";
 
 const GETCATEGORY = gql`
   query GetCategory($title: CategoryInput) {

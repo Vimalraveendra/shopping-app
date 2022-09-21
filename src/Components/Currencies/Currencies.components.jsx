@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./Currencies.styles.scss";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import Currency from "../Currency/Currency.components";
 import withCurrency from "../../HigherOrder/withCurrency.component";
 

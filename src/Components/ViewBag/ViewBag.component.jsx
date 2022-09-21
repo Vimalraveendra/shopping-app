@@ -1,7 +1,7 @@
 import "./ViewBag.styles.scss";
 
 import React, { Component } from "react";
-import { CartContext } from "../../Components/Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import Button from "../Button/Button.component";
 import ViewBagItem from "../ViewBag-Item/ViewBag-item.components";
 
