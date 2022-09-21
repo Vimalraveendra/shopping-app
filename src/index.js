@@ -4,7 +4,7 @@ import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import CartProvider from "./Components/Context/Cart.context";
+import CartProvider from "../src/Context/Cart.context";
 
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 

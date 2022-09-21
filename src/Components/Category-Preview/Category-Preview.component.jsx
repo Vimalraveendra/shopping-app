@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Category-Preview.styles.scss";
 import CategoryItem from "../Category-Item/Category-item.component";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 
 class CategoryPreview extends Component {
   static contextType = CartContext;

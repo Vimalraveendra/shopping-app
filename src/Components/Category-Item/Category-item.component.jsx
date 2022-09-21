@@ -1,7 +1,7 @@
 import "./Category-item.styles.scss";
 import { ReactComponent as Cart } from "../../assets/shopping-cart.svg";
 import React, { Component } from "react";
-import { CartContext } from "../../Components/Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import { Link } from "react-router-dom";
 
 class CategoryItem extends Component {

@@ -1,7 +1,7 @@
 import "./Cart-Dropdown.styles.scss";
 
 import React, { Component, Fragment } from "react";
-import { CartContext } from "../Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import Button from "../Button/Button.component";
 import CartItem from "../Cart-Item/Cart-item.component";
 import { Link } from "react-router-dom";

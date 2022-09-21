@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import Slider from "../Slider/Slider.component";
 
 class SliderPreview extends Component {

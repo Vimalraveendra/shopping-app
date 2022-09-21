@@ -7,7 +7,7 @@ import { ReactComponent as ShopLogo } from "../../assets/Group.svg";
 import { ReactComponent as Cart } from "../../assets/shopping-cart.svg";
 import { ReactComponent as Caret } from "../../assets/caret-down.svg";
 
-import { CartContext } from "../../Components/Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 
 import Currencies from "../../Components/Currencies/Currencies.components";
 

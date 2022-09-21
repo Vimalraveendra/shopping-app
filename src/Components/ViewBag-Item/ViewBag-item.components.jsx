@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { CartContext } from "../../Components/Context/Cart.context";
+import { CartContext } from "../../Context/Cart.context";
 import SliderPreview from "../Slider-Preview/Slider-preview.component";
 import ProductVariants from "../Product-Variants/Product-Variants.component";
 
