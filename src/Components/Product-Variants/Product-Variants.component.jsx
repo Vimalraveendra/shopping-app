@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import ProductVariant from "../Product-Variant/Product-Variant.component";
-import "./Product-Variants.styles.scss";
 
 const PRODUCT_TYPE_CLASS = {
   bag_item_size: "bag-item-size",

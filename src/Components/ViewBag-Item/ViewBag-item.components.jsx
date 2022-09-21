@@ -15,7 +15,6 @@ class ViewBagItem extends Component {
     const { brand, name, price, gallery, quantity, attributes } =
       this.props.cartItem;
     const { incrementCartItemQuantity, decrementCartItemQuantity } = this;
-    console.log("cartItems", this.props);
     return (
       <Fragment>
         <div className="bag-container">
