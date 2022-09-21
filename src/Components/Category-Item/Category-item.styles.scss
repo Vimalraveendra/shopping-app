@@ -1,0 +1,115 @@
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3px;
+  // width: 386px;
+  // height: 444 px;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden; 
+  position: relative; 
+  
+    &:hover {
+      cursor: pointer;
+      z-index: 5;
+      transition: all 1s ease-in-out;
+      box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+  
+    
+  
+      & .category-body-container {
+        transition: all 0.7s ease-in-out;
+        visibility: visible;
+        opacity: 1;
+      }
+  
+     
+    }
+  
+    .out-of-stock{
+      position:absolute;
+      top:200px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 160%;
+      text-transform: uppercase;
+  }
+  
+    .category-image {
+      // width: 386px;
+      //  
+      width: 100%;
+      height: 444px;
+      // height: 330px;
+      // min-height: 444px;
+      margin-bottom:10px;
+      text-align: center;
+
+  
+    
+    img {
+      width: 93%; 
+      height: 100%;
+      object-fit: contain;
+      padding: 10px 0px;
+      opacity: 0.7;
+   
+    }
+  }
+  
+  .category-body-container{
+     visibility: hidden;    
+     opacity: 0;
+    width:52px;
+    height:52px;
+    border-radius: 50%  ;
+    background-color: #5ECE7B;  
+    position:absolute;
+    right: 25px;
+   bottom:60px;
+   text-align: center;
+   filter: drop-shadow(0px 4px 11px rgba(29, 31, 34, 0.1));
+  
+   .cart{
+     font-weight: bold;
+     width:22px;
+     height:25px;
+     margin-top:12px;
+   
+  
+   
+   }
+  }
+    .category-footer {
+      width:100%;
+      // height: 90px;
+      padding: 0 15px;
+      margin:20px 5px 10px;   
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+  
+      h2 {
+        font-style: normal;
+        font-weight: 300;
+        margin: 0 3px 0;
+        font-size: 18px;
+        color: #1D1F22;
+         text-transform: capitalize;
+      }
+  
+      p {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 3px ;
+      }
+    }
+  }
+  
+  
+    
