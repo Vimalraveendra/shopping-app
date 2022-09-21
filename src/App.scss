@@ -1,0 +1,25 @@
+.App {
+  // text-align: center;
+  background: #eee;
+  
+}
+.App-container{
+  padding: 15px 70px; 
+  .title{
+    margin:0px;
+    padding: 70px 0px 0px 35px ;
+    text-align: start;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+}
+
+.disabled{
+  opacity: 0.5;
+  pointer-events: none;
+}
+

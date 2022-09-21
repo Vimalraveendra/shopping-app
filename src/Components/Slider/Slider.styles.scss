@@ -1,0 +1,41 @@
+.slider-preview{
+  height:100%;
+.slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 100px; */
+    overflow: hidden;
+  
+
+  .left-arrow,
+  .right-arrow {
+    font-size: 24px;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color:#fff;
+  }
+  
+  .left-arrow {
+    top: 78%;
+    left: 120px;
+    .right{
+      color:blue;
+    }
+  }
+  .right-arrow {
+    top: 78%;
+    right: 10px;
+  }
+  .left-arrow:hover,
+  .right-arrow:hover {
+    color: rgb(184, 172, 233);
+  }
+}
+}
